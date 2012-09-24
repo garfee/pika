@@ -66,7 +66,7 @@ class ConnectionParameters(object):
                  ssl_options=None,
                  connection_attempts=1,
                  retry_delay=2,
-                 socket_timeout=None):
+                 socket_timeout=2):
 
         # Validate the host type
         if not isinstance(host, str):
